@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"param_locs": "00_core.ipynb",
+         "docments": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://fastai.github.io/docments/"
 
